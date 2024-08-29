@@ -118,6 +118,20 @@ main {
     flex-direction: column;
 }
 
+.section-3 p {
+    padding: 0;
+}
+.quote {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+}
 /* footer */
 
 footer {
