@@ -132,6 +132,54 @@ main {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.section-4 {
+    padding: 60px 150px;
+}
+
+.section-4 .separator {
+    display: flex;
+    background-color: #3882F6;
+    padding: 20px 60px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.section-4 .left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section-4 .right {
+    flex-shrink: 0;
+}
+
+.section-4 h3, p {
+    margin: 0;
+}
+
+.section-4 h3 {
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.section-4 p {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.section-4 button {
+    color: #F9FAF8;
+    border: 1px solid #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 3px;
+    padding: 8px 16px;
+}
 /* footer */
 
 footer {
